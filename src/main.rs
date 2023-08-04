@@ -48,7 +48,7 @@ fn real_main() -> i32 {
             fs::create_dir_all(&outpath).unwrap();
         } else {
             println!(
-                "File {} extracted to \"{}\" ({} bytes)",
+                "File {} Extracted to \"{}\" ({} bytes)",
                 i,
                 outpath.display(),
                 file.size()
